@@ -1,0 +1,170 @@
+✅ LIVELLO 1 — Basi di Java
+
+1. Stampa e variabili
+
+Scrivi un programma che:
+	•	legge da input nome, cognome e età
+	•	stampa una frase del tipo:
+“Mi chiamo Mario Rossi e ho 25 anni.”
+
+2. Numeri pari/dispari
+
+Scrivi un programma che legge un numero e stampa se è pari o dispari.
+
+3. Somma dei primi N numeri
+
+Dato un intero N, stampa la somma 1 + 2 + … + N.
+
+4. Massimo tra tre numeri
+
+Senza usare Math.max, trova il maggiore tra 3 numeri.
+
+5. Conta le vocali
+
+Data una stringa, conta quante vocali contiene.
+
+⸻
+
+✅ LIVELLO 2 — Cicli e array
+
+6. Inverti un array
+
+Dato un array di interi, inverti l’ordine senza usare librerie.
+
+7. Valore massimo e minimo
+
+Restituisci il max e il min di un array.
+
+8. Verifica se un array è crescente
+
+Restituisci true se ogni elemento è > del precedente.
+
+9. Somma elementi in posizioni pari
+
+Sommare solo gli elementi negli indici pari.
+
+10. Rimuovi duplicati da un array (senza Set)
+
+Restituisci un nuovo array con solo i valori unici.
+
+⸻---------------------------------------------------------------------------------------------------------------------
+
+✅ LIVELLO 3 — Stringhe
+
+11. Palindroma
+
+Controlla se una stringa è palindroma.
+
+12. Conta occorrenze di una parola
+
+Dato un testo e una parola, conta quante volte compare.
+
+13. Anagrammi
+
+Verifica se due stringhe sono anagrammi.
+
+14. Prima lettera maiuscola
+
+Capitalizza ogni parola in una frase.
+
+⸻---------------------------------------------------------------------------------------------------------------------
+
+✅ LIVELLO 4 — OOP (Programmazione a Oggetti)
+
+15. Classe Studente
+
+Crea una classe Studente con:
+	•	nome
+	•	cognome
+	•	voto medio
+	•	metodo toString()
+	•	un metodo promosso() che ritorna true se il voto medio ≥ 6
+
+16. Banca
+
+Crea una classe ContoBancario con:
+	•	saldo
+	•	metodo deposita()
+	•	metodo preleva()
+	•	saldo non può andare sotto zero
+
+17. Libro e Biblioteca
+
+Crea:
+	•	classe Libro (titolo, autore)
+	•	classe Biblioteca che può aggiungere libri e cercarli per autore
+
+⸻
+
+✅ LIVELLO 5 — Algoritmi tipici richiesti nei colloqui
+
+18. FizzBuzz
+
+Stampa i numeri da 1 a 100, ma:
+	•	multipli di 3 → "Fizz"
+	•	multipli di 5 → "Buzz"
+	•	multipli di entrambi → "FizzBuzz"
+
+19. Contare frequenza di caratteri
+
+Ritorna una mappa <Carattere, Conteggio>.
+
+20. Two Sum (classico da colloquio)
+
+Dato un array e un target, trova due elementi che sommati danno il target.
+Restituisci gli indici.
+
+21. Secondo massimo
+
+Trova il secondo valore più grande in un array.
+
+22. Merge di due array ordinati
+
+Unisci due array ordinati in uno nuovo ordinato.
+
+⸻
+
+✅ LIVELLO 6 — Strutture dati
+
+23. Implementa una Stack
+
+Con array dinamico o lista:
+	•	push, pop, peek, isEmpty.
+
+24. Implementa una Queue
+
+Con due stack oppure con array circolare.
+
+25. Lista concatenata
+
+Implementa una singly linked list con:
+	•	add
+	•	remove
+	•	contains
+	•	print
+
+⸻
+
+✅ LIVELLO 7 — Problemi “classici” da live coding
+
+26. Rotazione di array
+
+Ruota un array a destra di K posizioni.
+
+27. Rimuovere tutte le vocali da una stringa
+
+28. Verificare parentesi ben bilanciate
+
+Usa uno stack per verificare ()[]{}.
+
+29. Matrice: somma diagonali
+
+Calcola somma della diagonale principale e secondaria.
+
+30. Cerca in matrice con BFS
+
+Dati:
+	•	matrice 0/1
+	•	posizione iniziale
+	•	obiettivo
+Trova se esiste un percorso (↑ ↓ ← →).
