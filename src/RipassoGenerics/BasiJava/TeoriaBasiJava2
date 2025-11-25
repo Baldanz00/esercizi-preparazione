@@ -1,0 +1,15 @@
+** ISTRUZIONI CONDICIOZNALI **
+Blocco di istruzioni per cui voglio che il programma faccia
+determinate cose a condizione vera o falsa.
+
+-> if-else : valuto una condizione booleana ed entro in un blocco o in un altro
+
+-> switch-case : io valuto una variabile, nel caso in cui questa variabile abbia
+un valore o un altro o un altro, faccio cose divrse
+
+Ci sono due kw per uscire dai cicli:
+-> breack; fine del ciclo, esco dall'espressione e il resto lo salta
+-> continue;
+
+ARRAY : struttura di dati statica e posizionale ( posso accedere al valore degli elementi
+per posizione)

@@ -1,5 +1,6 @@
 //Esercizio JavaBase1
 void main() {
+
     //prendere un input dall'utente una stringa lunga a piacere
     Scanner scanner = new Scanner(System.in);
     System.out.println("Inserisci una parola lunga a piacere: ");

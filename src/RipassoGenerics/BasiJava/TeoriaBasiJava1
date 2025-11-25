@@ -1,0 +1,57 @@
+** BASI JAVA **
+
+Java -> è un linguaggio di programmazione.
+I linguaggi di programmazione sono di 2 tipi:
+    1. LINGUAGGIO COMPILATO: per essere eseguito tra la compilazione e l'esecuzione del programma
+    c'è una fase intermedia (COMPILATORE) che prende il nostro codice e lo
+    traduce in codice macchina.
+    Dal momento che ci sono 2 fasi, la COMPILE-TIME e la RUN-TIME, ci sono
+    due fasi in cui posso trovare errori (sintassi e logica)
+
+    2. LINGUAGGIO INTERPRETATO: non ha il compilatore ma ha un INTERPRETE e il codice
+    viene eseguito direttamente.
+
+Java è nel mezzo, ha la JVM che funziona da interprete, la JRE che funziona da COMPILATORE
+ e la JDK per la struttura del programma.
+ La JVM prende il codice che abbiamo scritto, lo trasforma in bytecode , e non in codice
+ macchina. Per eseguire il programma mi basta avere la JVM installata.
+
+
+VARIABILI: la variabile mi contiene un valore che durante il corso del programma posso cambiare
+
+//int numeroIntero; -> dichiarazione di una variabile di tipo int
+    numeroIntero = 5; -> inizializzazione
+//boolean variabileBooleana; -> dichiarazione di una variabile booleana (true/false)
+
+//float/double numeroDecimale;
+
+Le variabili , quando eseguo il programma, vengono momentaneamente salvate in RAM (memoria
+temporanea) nel momento in cui gli assegno un valore.
+
+INTERAGIRE CON UN PROGRAMMA:
+classe SCANNER -> gestione dei dati in input
+Fa parte della libreria java.util
+
+import java.util.Scanner;
+Scanner scan = new Scanner(System.in);
+int numeroIntero = scan.nectInt();
+double numeroDecimale = scan.nextDouble();
+String parola = scan.next(); -> prende solo la prima parola
+String frase = scan.nextLine(); -> prende u a frase lunga a piacere
+
+classe Random -> genera uno pseudorandom
+import java.util.Random;
+Random ran = new Random();
+int max = 10;
+int num = ran.nextInt(max);
+
+STRING -> non è un tipo primitivo, ma un oggetto (IMMUTABILE)
+String ciao = "Ciao";
+
+System.out.println(ciao.toUpperCase()); -> maiuscolo
+
+System.out.println(ciao.toLowerCase()); -> minuscolo
+
+System.out.println(ciao.length()); -> lunghezza della frase (ritorna un int)
+
+System.out.println(ciao.substring(0,2)); -> prendo solo alcuni caratteri da pos.0 a pos.2
