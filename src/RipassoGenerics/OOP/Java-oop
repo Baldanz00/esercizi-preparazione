@@ -1,0 +1,41 @@
+Object Oriented Program -> java è un linguaggio orientato ad oggetti
+L'OOP si basa sul concetto di classe e di Oggetto.
+
+Tipi di programmazione:
+- procedurale: (do dei comandi che vengono eseguiti)
+- Progrm. funzionale: (tipo di organizzazone delle funzioni, funzioni singole richiamate
+in modo organizzato)
+- ad Oggetti: moto di organizzare il codice che imita il mondo reale, che è pieno di oggetti
+
+-> Oggetti
+Tutti hanno delle caratteristiche, uno stato e delle azioni con cui interagiscono
+
+-> Classe
+modello generico che gli oggetti hanno in comune, seppur tra di loro con caratteristiche diverse
+
+Astrazione della realtà, per far differire tra loro oggetti della stessa classe , con
+caratteristiche diverse, stato diverso che non accomuna gli oggetti
+
+Definita una classe con determinate caratteristiche, posso creare oggetti che saranno istanze
+di quella classe. Trattandosi di oggetti diversi, modificare lo stato di uno non
+cambierebbe lo stato degli altri
+
+-> Classe = modello (progetto di una macchina)
+-> Oggetto = istanze (singole macchine)
+
+Una volta creato un oggetto, si comporta come mondo a se che comunica mediante i propri metodi
+
+La classe ha dei metodi, sono dei sottoprogrammi che mi permettono di interagire con
+un oggetto.
+
+I metodi hanno:
+tipo di dato di ritorno (void se non ritorna nullo) - nome - parametri in ingresso (opzionale)
+Se un metodo ritorna un tipo di valore non vuoto, deve avere un return
+
+**COSTRUTTRE**
+E' un metodo speciale che si usa per inizializzare gli oggetti. Il cotruttore è chiamato
+quando un oggetto di una classe viene creato.
+Può essere usato per definire il valore iniziale degli attributi dell'oggetto
+
+@Overload dei metodi : ho più metodi che si chiamano nella stessa maniera, ma hanno
+implementazione diversa
