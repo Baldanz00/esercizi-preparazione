@@ -1,0 +1,32 @@
+Vantaggi dell'oop:
+- scrittura del programma più chiara;
+- mantenere il codice dry (don't repeat yourself)
+- facile il debug
+- applicazioni riutilizzabili
+
+Se vogliamo controllare l'accesso ad altri oggetti, perchè non voglio che abbiano
+il pieno accesso allo stato interno.
+Voglio proteggere il mio stato interno...
+E' Rettangolo che deve decidere che tipo di azioni possono essere fatte e da chi.
+
+INCAPSULAMENTO: posso restringere l'accesso ad attributi e metodi.
+Questo principio si basa sull'Information Hiding -> capacità di nascondere l'implementazione
+interna di una classe, esponendo solo un interfaccia che serve solo per l'interazione controllata
+
+Anche dopo aver impostato una logica di controllo nel costruttore, non essendoci
+un limite nei parametri, posso comunque cambiarli:
+void main(){
+rettangolo1.altezza = 0;
+}
+
+Devo quindi cambiare il livello di accesso, modificando il modificatore:
+- private: visto solo dalla classe
+- protected
+- defoult
+- public : più aperto, è visibile ovunque
+
+Gli attributi sono private;
+I metodi con cui l'oggetto interagisce con l'esterno sono private;
+I costruttori sono public;
+I metodi di servizio sono public;
+La classe è public;

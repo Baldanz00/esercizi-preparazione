@@ -1,0 +1,19 @@
+creare la classe prodotto che gestisce i prodotti dello shop
+Un prodotto è caratterizzato da:
+- nome;
+- descrizione;
+- prezzo;
+- iva;
+
+Usate costruttori, attributi ed eventuali metodi di 'utilità' per fare in modo che:
+- alla creazione di un nuovo prodotto il codice sia valorizzato con un numero random;
+- il prodotto esponga un metodo per avere il prezzo base;
+- il prodotto esponga un metodo per avere il prezzo complessivo di iva;
+- il prodotto esponga un metodo per avere il nome esteso, ottenuto concatenando
+codice-nome
+
+Aggiungere il metodo main dove testare
+
+**RECAP LEZIONE PRECEDENTE**
+- Che cos'è lo stato interno di una classe?
+L'insieme dei valori contenuti negli attributi di una classe.
