@@ -1,0 +1,24 @@
+**EREDITARIETà**
+Derivare una classe da un altra.
+Lo scopo del polimorfismo è implementare l0information hiding proteggendo lo stato
+interno di una classe.
+Lo scopo dell'ereditarietà è il riuso delle classe:
+una classe nuova può dichiarare di essere figlia di un altra classe, con lo scopo
+di ereditare attribui, costruttori e metodi geneticamente.
+
+La classe padre è detta: superclasse;
+La classe figlia è detta sottoclasse;
+
+Quando so l'argomento che sto trattando, il mio scopo è quello di organizzare le classi
+i modo da riusare il mio codice.
+
+Mi devo fermare a pensare a quante classi hanno dei fattori in comune, per creare una classe
+che abbia tutti i fattori comuni che poi erediteranno le sottoclassi, in modo da non
+dover riscrivere la stessa logica in più classi, e risparmiarmi del codice superfluo.
+
+Per derivare una classe da un altra si usa la kw 'extends' seguita dal nome della superclasse.
+
+Non si può estendere più classi contemporaneamente, tutte le classi hanno un extends,
+e quando non c'è è una sottoclasse di Object, che è il padre di tutte le classi di Java.
+
+Java-OOP Ereditarietà. min 1.07.55

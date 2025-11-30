@@ -1,4 +1,4 @@
-package RipassoGenerics.OOP;
+package RipassoGenerics.OOP.Incapsulamento;
 
 public class Auto {
     // 'class' è la kw per la definizione di una nuova classe = modello
