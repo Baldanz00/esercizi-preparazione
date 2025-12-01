@@ -1,0 +1,16 @@
+** POLIMORFISMO **
+Stesso nome, cose diverse.
+
+package: Ereditarietà
+Serie può riferirsi alla propria superclasse con la kw super e può fornire la sua implementazione del metodo
+super.riproduci();
+
+I due metodi si chiamano allo stesso modo ma hanno implementazioni diverse : POLIMORFISMO
+
+-> Capacità di avere dei metodi con lo stesso nome ma implementazione diversa.
+
+@Override del metodo: fornisco un implementazione diversa di uno stesso metodo
+L 'annotation' con lo scopo di segnalare che si sta facendo override del metodo e posso
+    evitare errori di misstyping.
+
+Se la superclasse ha un costruttore esplicito, la sottoclasse deve implementarlo come prima operazione.

@@ -1,14 +1,17 @@
 package RipassoGenerics.OOP.Ereditarietà.EreditarietàEsempio.contenuto;
 
 public class Contenuto {
-    protected String titolo;
-   private String[] attori;
 
+    protected String titolo;
+    private String[] attori;
+
+    //COSTRUTTORE
     public Contenuto(){
         this.attori = new String[5];
         this.numeroAttori = 0;
     }
 
+    //GETTER E SETTER
     public String[] getAttori() { return attori; }
     /*avendo un costruttore che accetta massimo 5 attori, utilizzando il setter
     * potrei modificare il numero di attori sovrascrivendo l'array.
@@ -32,7 +35,7 @@ public class Contenuto {
     public String getTitolo() { return titolo; }
     public void setTitolo(String titolo) { this.titolo = titolo; }
 
-    void riproduci(){
+   public void riproduci(){
         System.out.println("Inizio contenuto");
     }
 

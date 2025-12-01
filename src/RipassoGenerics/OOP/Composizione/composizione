@@ -1,0 +1,36 @@
+**RECAP**
+1. Che cos'è l'incapsulamento?
+E' la capacità di incapsulare (proteggere) lo stato interno di una classe,
+tenendo metodi e attributi privati, e permettere l'accesso in lettura o scrittura
+mediante metodi controllati, che sono i Getter e i Setter, facendo attenzione a non
+rompere l'incapsulamento.
+L'incapsulamento si può rompere con il setter non controllato, non custom, perchè mi
+andrebbe a sovrascrivere i dati; si può rompere poi in casi di oggetti, array ,
+anche con un getter sbagliato, perchè il get di un array mi da accesso alla posizione
+dell'array e posso così sovrascrivere quella posizione.
+
+2. Che cos'è l'ereditarietà?
+Capacità di una classe di ereditare geneticamente attributi e metodi di una superlasse.
+E questo si fa mediante kw 'extends'.
+
+-> Livelli di accesso: sono kw che impostano la visibilità di un attributo o metodo di una classe.
+- private : visibile solo nella classe
+- protected : classe, package e sottoclassi anche in un altro package
+- defoult : classe e package
+- public : letto e scritto ovunque
+
+
+** COMPOSIZIONE **
+Riuso del codice.
+Finchè il concetto è lo stesso, lo scopo di un metodo è il medesimo di un altro, non ha senso farne 2,
+ma cerco di riusare il mio metodo.
+
+L'ereditarietà è un modo di riuso del codice, perchè li eredito.
+
+Riutilizzare significa creare nuove classi servendosi di classi già esistenti senza modificarle.
+
+Ogni classe può essere componenti di un altra. -> uso di classi piccole per formare una classe più grande.
+Rapporto ha-un tra le classi.
+
+[In ereditarietà il rapporto è è-un]
+
