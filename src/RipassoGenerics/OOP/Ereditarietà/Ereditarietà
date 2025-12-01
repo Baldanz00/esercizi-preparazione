@@ -21,4 +21,7 @@ Per derivare una classe da un altra si usa la kw 'extends' seguita dal nome dell
 Non si può estendere più classi contemporaneamente, tutte le classi hanno un extends,
 e quando non c'è è una sottoclasse di Object, che è il padre di tutte le classi di Java.
 
-Java-OOP Ereditarietà. min 1.07.55
+**MODIFICATORI DI VISIBILITà: PROTECTED E DEFOULT**
+DEFOULT -> visibile solo nella classe e nel package
+PROTECTED -> visto dalla classe e dal package e dalla sottoclasse anche se in un package diverso
+

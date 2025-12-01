@@ -31,7 +31,7 @@ public class DomandaQuiz {
    public static void main(String[] args){
         Scanner scanner = new Scanner(System.in);
         DomandaQuiz d1 = new DomandaQuiz("Qual è la capitale d'Italia?","Roma");
-        System.out.println("Inserisci una risposta alla domanda:\n" + getDomanda());
+        System.out.println("Inserisci una risposta alla domanda:\n" ); //+ getDomanda());
         String rispostaUtente = scanner.nextLine();
         d1.verificaRisposta(rispostaUtente);
         d1.stampaRisultato(rispostaUtente);
