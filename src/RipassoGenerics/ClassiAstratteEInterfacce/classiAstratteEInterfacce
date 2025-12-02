@@ -1,0 +1,6 @@
+** ASTRAZIONE **
+Creare modelli che rappresentano la realtà, nascondendone la complessità e la molteplicità.
+
+Classi astratte -> classe che può avere dei metodi astratti (metodi senza corpo).
+
+Se una classe concreta estende una classe astratta, deve per forza implementare i suoi metodi.
