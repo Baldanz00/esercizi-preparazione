@@ -1,0 +1,28 @@
+** ATTRIBUTI E METODI STATICI **
+
+Una classe definisce lo stato e il comportamento di un oggetto che verrà creato con il 'new'
+che richiama il costruttore.
+Quando istanziamo un oggetto, questo avrà il proprio scope dove esiste il this.
+
+In aggiunta una classe può definire attributi o metodi che non si riferiscono al
+singolo oggetto ma a tutta la classe, avranno cioè lo scope di classe,
+e si creano con la kw 'static'.
+
+Una variabile definita 'static' appartiene alla classe e no alle singole istanze.
+Ciò significa che per quella variabile viene allocata una cella di memoria a
+parte e tutte le istanze punteranno a quella cella di memoria per vedere la
+variabile.
+Di quella variabile ci sarà una singola copia in tutto il programma, che le
+istanze condivideraqnno.
+
+METODI:
+I metodi classici, ad esempio i setter , ho bisogno che sia prima creata l'istanza
+per poter usare il metodo, sono quindi metodi d'istanza.
+
+Per i metodi static ( come il main) non hanno bisogno dell'istanza dell'oggetto,
+perchè il suo comportamento è sempre lo stesso indipendentemente dall'istanza.
+Spesso i metodi di utility sono static (tipo calcolatrice).
+
+Se in una classe, io creo un costruttore privato, di fatto non posso creare istanze di
+quella classe, ma posso usarla per metodi di utilità.
+
