@@ -17,4 +17,5 @@ public abstract class Animale {
     Perchè dovrei avere una classe che non può essere istanziata?
         Non conosco quante istanze creerò, ne tantomeno che verso fanno....
      */
+    public abstract void getCibo();
 }

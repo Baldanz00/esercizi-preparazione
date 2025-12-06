@@ -4,3 +4,42 @@ Creare modelli che rappresentano la realtà, nascondendone la complessità e la 
 Classi astratte -> classe che può avere dei metodi astratti (metodi senza corpo).
 
 Se una classe concreta estende una classe astratta, deve per forza implementare i suoi metodi.
+
+A te serve una classe astratta quando  hai dei comportamenti comuni che vuoi che le figlie debbano implementare per
+forza.
+
+**INTERFACCIA**
+Ancora più astratta, può avere attributi e ha
+metodi astratti.
+Stabilisce a cosa devono assomigliare le classi che la
+implementano -> è un contratto.
+Perchè fare una classe? la classe è un entità,
+le interfacce sono un fai qualcosa, un operazione
+
+L'interfaccia non essendo una classe non si eredita, si implementa.
+Come classe da estendere ne puoi avere solo una, ma posso implementare più interfacce.
+
+Con l'interfaccia, sfrutti il polimorfismo..
+Polimorfismo: capacità di riferirsi ad oggetti di classi diverse attraverso un
+interfaccia comune, di invocare metodi che assumono comportamenti diversi a seconda del
+tipo concreto dell'oggetto.
+
+Recap Interfacce:
+- come le classi astratte, le interfacce non si possono usare per creare oggetti
+(le interfacce non contengono neanche costruttori);
+- tutti i metodi di un interfaccia non hanno corpo (che viene fornito quando le classi
+implementano l'interfaccia)
+- quando si implementa un interfaccia si devono implementare tutti i metodi
+- i metodi di un interfaccia sono di defoult abstract e public
+- gli attributi di un interfaccia sono public static e final (ad esempio la costante di pigreco)
+
+Una classe può estendere solo una superclasse ma può implementare diverse interfacce
+Differenze tra classi astratte e interfacce:
+- la classe astratta è una classe, l'interfacciano
+- entrambi possono avere attributi, ma dell'interfaccia sono delle costanti public static e final
+- l'interfaccia non può avere uno stato interno
+- l'interfaccia non ha un costruttore, la classe astratta si ma privato
+- l'interfaccia non può avere metodi concreti, la classe astratta può avere sia metodi
+concreti che astratti.
+Da java8 anche l'interfaccia può avere metodi con implementazione
+-
