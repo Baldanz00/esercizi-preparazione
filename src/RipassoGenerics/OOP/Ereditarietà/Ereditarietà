@@ -1,6 +1,6 @@
 **EREDITARIETà**
 Derivare una classe da un altra.
-Lo scopo del polimorfismo è implementare l0information hiding proteggendo lo stato
+Lo scopo del polimorfismo è implementare l'information hiding proteggendo lo stato
 interno di una classe.
 Lo scopo dell'ereditarietà è il riuso delle classe:
 una classe nuova può dichiarare di essere figlia di un altra classe, con lo scopo
